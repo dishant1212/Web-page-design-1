@@ -17,7 +17,7 @@ function App() {
         <div className='text-2xl font-bold text-blue-600'>Calendly</div>
         
       </div>
-      <ul className='hidden flex space-x-[7px]  lg:space-x-10 font-medium md:flex'>
+      <ul className='hidden space-x-[7px]  lg:space-x-10 font-medium md:flex'>
         <li>Individuals</li>
         <li>Teams</li>
         <li>Enterprise</li>
@@ -26,7 +26,7 @@ function App() {
         <li>Resources</li>
       </ul>
       <div className='flex space-x-6 items-center'>
-      <div className='font-medium'>
+      <div className='hidden md:flex font-medium'>
         Log In
       </div>
       <button className='bg-blue-600 text-white rounded-3xl p-[7px] hover:bg-blue-500'>Get started</button>
@@ -37,8 +37,8 @@ function App() {
 
     {/*hero section start */}
     <div className='w-full h-auto bg-blue-950 flex  md:flex-row flex-col items-center justify-evenly '>
-        <div className="w-full md:w-[40%] h-full my-4 py-4 px-20">
-          <p className='text-6xl sm:text-6xl  lg:text-7xl text-white'>
+        <div className="w-full md:w-[40%] h-full my-4 py-4 px-10">
+          <p className='text-4xl sm:text-6xl  lg:text-7xl text-white'>
               Secure connectins, empowered teams
           </p>
           <p className='text-white py-8'>
@@ -62,8 +62,8 @@ function App() {
                   <div className='flex m-4'>
                     <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtcO4YmGkZhf8rEs8DdPZYnLlPCpOF1pTMZMYf1lDHzaQFAqjUKPzRFdZaqDRuBuYKHo&usqp=CAU'/>
                     <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jwEHzg5dm29oUwpVWflTmQHqBLJUuCYd_ise9N4Ckg&s'/>
-                    <img className='h-10 w-10 rounded-3xl' src='https://www.kindpng.com/picc/m/155-1550391_faces-in-circle-png-transparent-png.png'/>
-                   
+                    {/* <img className='h-10 w-10 rounded-3xl' src='https://www.kindpng.com/picc/m/155-1550391_faces-in-circle-png-transparent-png.png'/>
+                    */}
                   </div>
                 </div>
 
@@ -71,9 +71,9 @@ function App() {
                   <p className='bg-gray-300 px-8 font-bold text-gray-800'>Sales</p>
                   <div className='w-full  flex flex-col justify-between  items-center'>
                     <div className='w-full h-auto flex justify-center items-center '>
-                  <img className='h-[48px] w-[48px] rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAHOdavIH8vvRk0U2ZtYIzUX0pBSd3FHjCzMx5Ac5nzqllbkH9gYQYwidJn5ECOpbAPQ&usqp=CAU'/>
-                    <img className='h-[48px] w-[48px]  rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvncVK-SvQKQgZqq0ozFb2wKt0QfLUxlSC9TaZ_CjYlg&s'/>
-                    <img className='h-[48px] w-[48px]  rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTeeaCTTyrL9HZdW2bmrlr-edN1fFhNxjLyfmyMUdoP34H8HPocRASP6rWVVo_wdwnebU&usqp=CAU'/>
+                  <img className='h-[44px] w-[44px] rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAHOdavIH8vvRk0U2ZtYIzUX0pBSd3FHjCzMx5Ac5nzqllbkH9gYQYwidJn5ECOpbAPQ&usqp=CAU'/>
+                    <img className='h-[44px] w-[44px]  rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvncVK-SvQKQgZqq0ozFb2wKt0QfLUxlSC9TaZ_CjYlg&s'/>
+                    <img className='h-[44px] w-[44px]  rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTeeaCTTyrL9HZdW2bmrlr-edN1fFhNxjLyfmyMUdoP34H8HPocRASP6rWVVo_wdwnebU&usqp=CAU'/>
                     </div>
                     <div  className='w-full h-auto flex justify-center items-center'>
                     <img className='h-[50px] w-[50px]  rounded-3xl' src='https://www.pngitem.com/pimgs/m/128-1284293_marina-circle-girl-picture-in-circle-png-transparent.png'/>
@@ -92,7 +92,7 @@ function App() {
                     <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQrhUb7VQWOQJGKQSBG-HdqODWBe8WhgZsHi558ATMjy-a2MYFDSwwNCBVrkHInuL6M5U&usqp=CAU'/>
                     <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_mpdTkAOjNZ8_N9SNFkzq7XCHXP81acoXPoHCRNi1o7IQk3EMPXwcA7kEVjw9jMHXos&usqp=CAU'/>
                     
-                    <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxGiTeafkHXJ_-irTTiyv5S6SxrJa_QmcfoGI7mR1lbCXJXB433xMdQLXqsLGnT5SF5k&usqp=CAU'/>
+                    {/* <img className='h-10 w-10 rounded-3xl' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxGiTeafkHXJ_-irTTiyv5S6SxrJa_QmcfoGI7mR1lbCXJXB433xMdQLXqsLGnT5SF5k&usqp=CAU'/> */}
                     
                   </div>
                 </div>
@@ -104,8 +104,8 @@ function App() {
     {/*hero section end */}
      
     <div className='h-auto w-full py-20 flex flex-col justify-center items-center'>
-      <p className='text-5xl py-4 w-[60%] text-blue-900 font-bold text-center'>Work faster, smarter, and more securely</p>
-      <p className='text-2xl py-4 w-[60%] text-blue-400 text-center'>Sales, Customer Success, Support, Recruiting, and Marketing teams rely on scheduling platforms tosave time and quickly connect with customers. </p>
+      <p className='text-5xl py-4 w-[90%] md:w-[60%] text-blue-900 font-bold text-center'>Work faster, smarter, and more securely</p>
+      <p className='text-2xl py-4 w-[90%] md:w-[60%] text-blue-400 text-center'>Sales, Customer Success, Support, Recruiting, and Marketing teams rely on scheduling platforms tosave time and quickly connect with customers. </p>
       
     </div>
 
@@ -126,30 +126,30 @@ function App() {
          </div>
     </div>
 
-    <div className='w-full h-auto  px-0 md:px-10 flex flex-col md:flex-row '>
+    <div className='w-full h-auto  px-0 md:px-10 flex flex-col  items-center md:flex-row '>
      
-           <div className='w-[100%] md:w-[50%] flex flex-col justify-center items-start'>
+           <div className='w-[80%] md:w-[50%] flex flex-col justify-center items-start'>
             
             <h1 className='font-bold text-xl   2xl:text-3xl text-blue-900 my-4'>Retain control as your team scales</h1>
              <p className='text-xl text-blue-400   2xl:text-3xl'>Working within one organizational account ensures you securely account for all active users as you scale. With Calendly, IT teams can maintain more oversight over account access and Individual permissions, as well as audit activity at any time.</p>
             </div>
            
 
-           <div className="w-100% md:w-[50%] px-10 ">
+           <div className="w-[80%] md:w-[50%] px-10 ">
             <img className='w-full h-full'  src='https://www.salesforceben.com/wp-content/uploads/2022/01/Screenshot-2022-01-23-at-19.27.52.png' />
            </div>
  
     </div>
 
-    <div className='w-full h-auto  px-0 md:px-10 flex flex-col md:flex-row bg-gray-100'>
+    <div className='w-full h-auto  px-0 md:px-10 flex flex-col items-center md:flex-row bg-gray-100'>
      
-           <div className='w-[100%] md:w-[50%] px-10  '>
+           <div className='w-[80%] md:w-[50%] px-10  '>
             <img className='w-full h-full'  src='https://images.ctfassets.net/k0lk9kiuza3o/4dWGJL4E6om7dG8e1Oxbli/f7bcf38a2da5d6f8ab9d617d164f3703/Calendly-Enterprise-Small__3_.png?q=85&fm=webp' />
 
             </div>
            
 
-           <div className="w-100% md:w-[50%] flex flex-col  justify-center items-start">
+           <div className="w-[80%] md:w-[50%] flex flex-col  justify-center items-start">
             
            <h1 className='font-bold text-xl   2xl:text-3xl text-blue-900 my-4'>Designed for your whole organization</h1>
              <p className='text-xl text-blue-400  2xl:text-3xl'>With Calendly commonly used to power meetings with prospects, customers, recruits and more, it’s ideal to power scheduling for your whole company with meeting analytics, and enterprise-ready admin, security, and IT-oriented features.</p>
@@ -157,16 +157,16 @@ function App() {
  
     </div>
 
-    <div className='w-full h-auto  px-0 md:px-10 flex flex-col md:flex-row '>
+    <div className='w-full h-auto  px-0 md:px-10 flex flex-col items-center md:flex-row '>
      
-           <div className='w-[100%] md:w-[50%] flex flex-col justify-center items-start'>
+           <div className='w-[80%] md:w-[50%] flex flex-col justify-center items-start'>
             
             <h1 className='font-bold text-xl   2xl:text-3xl text-blue-900 my-4'>Get more value from your existing technology</h1>
              <p className='text-xl text-blue-400   2xl:text-3xl'>Calendly securely integrates with the tools your teams rely on every day. This includes seamless OAuth through Google Calendar and Office 365 as well as integrations across leading video conferencing tools (Zoom, Google Meet , Microsoft Teams , Webex), and more</p>
             </div>
            
 
-           <div className="w-100% md:w-[50%] px-10 ">
+           <div className="w-[80%] md:w-[50%] px-10 ">
             <img className='w-full h-full'  src='https://www.kpintegrators.com/wp-content/uploads/CalendlyIntegrations.webp' />
            </div>
  
@@ -339,7 +339,7 @@ function App() {
         <div><SlSocialYoutube /></div>
                </div>
                <div className="text-gray-500">
-            <p >Copyright Calendly 2024</p>
+            <p className="hidden md:flex">Copyright Calendly 2024</p>
            </div>
            </div>
 
@@ -401,8 +401,9 @@ function App() {
 
                 </div>
                 
-                <div className="text-gray-500 w-full mx:0 my-4 md:mx-14 flex items-end">
-                  <p className="w-[90%] text-end">Privacy / Terms and Conditions</p>
+                <div className="text-[12px] md:text-md  text-gray-500 w-full mx:0 my-4 md:mx-14 flex justify-between md:justify-end   md:items-end ">
+                  <p >Privacy / Terms and Conditions</p>
+                  <p className="flex md:hidden">Copyright Calendly 2024</p>
                 </div>
            </div>
        </div>
